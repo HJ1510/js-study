@@ -3,35 +3,29 @@ body {
   margin: 60px;
 }
 
-.box {
-  color: #f9fafc;
-  padding: 30px;
-  display: inline;
-}
-
 .red {
   background-color: #e46e80;
-}
-
-.blue {
-  background-color: #5195ee;
+  width: 500px;
+  height: 500px;
+  position: relative;
 }
 
 .green {
   background-color: #32b9c1;
-  position: relative;
-  top: 30px;
-  left: 50px;
+  position: absolute;
+  inset: 10px;
+}
+
+.blue {
+  background-color: #5195ee;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  left: 10px;
 }
 
 .orange {
   background-color: #f18575;
-}
-
-.yellow {
-  background-color: #fbc85b;
-}
-
-.purple {
-  background-color: #8579ef;
+  width: 100px;
+  height: 100px;
 }
